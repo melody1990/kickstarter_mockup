@@ -1,0 +1,354 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my reset */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Top navigation */
+
+header{
+    width: 100%;
+    height: 59px;
+    background-color: white;
+    border-bottom: 1px solid #DCDCDC;
+    display:flex;
+    justify-content: space-between;
+}
+
+.left {
+  display: flex;
+}
+
+#home{
+  background: url(assets/logos.svg) no-repeat;
+  background-size: 159px;
+  width: 175px;
+  height: 19px;
+  margin: 1.2em 2.5em 0 40px;
+}
+
+.left ul{
+  display: flex;
+  margin-right: 2em;
+}
+
+.left > ul li a{
+    display: block;
+    height: 100%;
+    padding: 22.5px 15px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #80809E;
+    vertical-align: baseline;
+}
+
+.right {
+  display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+    float: right;
+}
+
+#search {
+    box-shadow: -1px 0 #DCDCDC;
+    padding: 1.2em 0 1.2em 1.5em;
+    display: flex;
+    flex-grow: 2;
+}
+
+#search i {
+  transform: rotateY(180deg );
+  color: #4c4c4c;
+  margin-top: 1px;
+    margin-right: 0;
+}
+
+.material-icons.md-21 { font-size: 21px; }
+
+header form {
+    width: 80%;    
+}
+
+header form input {
+  border: none;
+  height: 1.4em;
+  margin-left: 8%;
+}
+
+header input:placeholder-shown, header input, header input:focus {
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+}
+
+#profile {
+  display: block;
+  padding: 16px 0 16px 18px;
+  border-left: solid 1px #DEDEDE;
+  float: right;
+}
+
+#profile img{
+    width: 26px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#profile i{
+    margin-right: 10px;
+    margin-left: -8px;
+    color: #80809E;
+}
+
+.material-icons.md-24 { font-size: 24px; }
+
+#profile:hover, .left ul li a:hover {
+  background-color: #F7F5F2;
+}
+
+/* dropdown */
+
+#nav_dropdown{
+    display: none;
+    text-align: left;
+    background-color: white;
+    border: solid 1px #DEDEDE;
+    top: 59px;
+    width: 280px;
+    right: 0;
+    position:absolute;
+    z-index: 2;
+}
+
+#dropdown1 {
+    padding: 30px;
+
+}
+
+#dropdown1 p, #dropdown1 a {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;    
+}
+
+#nav_dropdown a {
+    color: #2752ff;
+    font-weight: 200;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+
+
+
+#dropdown1 p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#nav_dropdown a:hover {
+    color: #020621;
+}
+
+#dropdown2 {
+    color: #3D3D66;
+    padding: 30px;
+    background-color: #F7F7F9;
+}
+
+#dropdown2 b {
+    font-weight: bolder;
+}
+
+#dropdown2 p, #dropdown2 a {
+    font-size: 12px;
+    line-height: 16.8px;    
+}
+
+/* Hero area */
+#hero {
+    text-align: center;
+    height: 580px;
+}
+
+
+#hero1 {
+    background: url("https://d3mlfyygrfdi2i.cloudfront.net/homepage-hero-watch-o.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+#hero1 h1 {
+    padding-top: 13%;
+    font-size: 4em;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#hero1 p {
+    color: white;
+    font-size: 22px;
+    line-height: 30.8px;
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#hero1 .button {
+    padding: 18px 30px;
+    border: 2px solid #2BDE73;
+    background-color: #2BDE73;
+    border-radius: 6px;
+    font-size: 1em;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/*
+
+#hero2 {
+    background: url("https://d3mlfyygrfdi2i.cloudfront.net/opera.jpg") no-repeat center top;
+    height: 580px;
+    background-size: cover;
+
+}
+
+#hero3 .button {
+    padding: 18px 30px;
+    border: 2px solid #020621;
+    background-color: #020621;
+    border-radius: 6px;
+    font-size: 1em;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+#hero3 {
+    background: url("https://d3mlfyygrfdi2i.cloudfront.net/HPHero_2-o.png") no-repeat center;
+    height: 580px;
+    background-size: cover;   
+}
+
+#hero3 h1 {
+    margin: 10.5% auto 20px auto;
+    width: 80%;
+}
+
+#hero3 p {
+    width: 50%;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+*/
+
+/* Projects we love */
+#loved {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin:40px auto;
+}
+
+#loved_proj {
+    width: 70%;
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#index {
+    width: 30%;
+    padding-left: 20px;
+}
+
+
+/* Recommended projects */
+
+/* Whats popular */
+
+/* Your friends */
+
+/* Curated pages */
+
+/* Where projects come from */
+
+/* Footer */
+
+/* breakpoints */
+
+@media (max-width:940px) {
+  #about {
+    display: none;
+  }
+  .left ul{
+    margin-right: 0;
+  }
+  .left > ul li a{
+  }
+}
