@@ -5,6 +5,9 @@
         <title>Kickstarter Home</title>
         <meta name="description" content="Practicing my html css by mocking up this site">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://use.fontawesome.com/d3b469c080.js"></script>
+        <link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
+        
         <link rel="stylesheet" href="main.css">
         
     </head>
@@ -60,45 +63,437 @@
             
             
         </div>
-        <div id="hero">
-            <div id="hero1">
+        <div  id="hero" class="my-slider">
+            <ul>
+            <li id="hero1">
                 <h1>Watch Now</h1>
                 <p>Join forces with a renowned Italian opera house that’s using technology to make an age‑old art form accessible to everyone, everywhere.</p>
                 <a href="#" class="button">View project</a>
-            </div>
-<!--           <div id="hero2">
+            </li>
+            <li id="hero2">
                 <h1>Opera for Everybody</h1>
                 <p>From award-winning features to eye-opening documentaries, hundreds of Kickstarted films are available to watch on iTunes.</p>
                 <a href="#" class="button">Browse Films</a>
-            </div>
-            <div id="hero3">
+            </li>
+            <li id="hero3">
                 <h1>Thousands of inspiring ideas, all in the palm of your hand.</h1>
                 <p>Your favorite projects are just a few taps away with Kickstarter for iPhone<sup>®</sup>, iPad<sup>®</sup>, and Android<sup>™</sup>.</p>
                 <a href="#" class="button">Get the app</a>
-            </div>
--->
+            </li>
+    
+        </ul>
         </div>
+        
         <div id="loved">
             <div id="loved_proj">
-                <div id="title">
+                <div class="title">
                     <h3>Projects We Love: Art</h3>
                     <a href="#">See all Art Projects</a>
                 </div>
                 <div id="content">
-                    
+                    <a href="#">
+                        <img src="https://ksr-ugc.imgix.net/assets/012/454/824/fc772e83b0f53fce3584b62c0507b8a6_original.jpg?w=560&h=315&fit=fill&bg=FFFFFF&v=1463761888&auto=format&q=92&s=e91ffbd5ec10935ba36bbee8509e9004"/>
+                    </a>
+                    <div id="description">
+                        <h1>
+                            <a href="#">The S. Helmes and W. Gaglione Rubber Stamp Archive</a>
+                        </h1>
+                        <h4 class="author">by Minnesota Center for Book Arts</h4>
+                        <p>MCBA is proud to announce the establishment of the world's most comprehensive working rubber stamp archive.</p>
+                        <div id="tags">
+                            <a href="#"><i class="material-icons md-16">location_on</i> Minneapolis, MN  </a>
+                            <a href="#"><i class="material-icons md-16" style="transform: scaleX(-1)">local_offer</i>Mixed Media</a>
+                            <a href="#" id="heart"><i class="material-icons md-14">favorite</i>Projects We Love</a>
+                        </div>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>17%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>$2,295</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>35</h1>
+                                <p>backers</p>
+                            </div>
+                            <div class="stats">
+                                <h1>34</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
-            <ul id="index">
-                <li class="selected"><a href="#">Art</a></li>
-            </ul>
+            <div id="index">
+                <ul>
+                    <li class="selected"><a href="#">Art</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Crafts</a></li>
+                    <li><a href="#">Dance</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Film & Video</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Journalism</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Publishing</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Theater</a></li>
+                </ul>    
+            </div>
+            <div class="clear"></div>
         </div>
+        <div class="line"></div>
+        <div class="recommended">
+            <div class="title">
+                <h3>Recommended for you</h3>
+                <a href="#">See all</a>
+            </div>
+            <div class="projects">
+                <div>
+                    <div class="col">
+                    <div class="img">
+                        <a href="#">
+                            <img src="https://ksr-ugc.imgix.net/assets/011/245/266/f4fc1cb98f56c27abb4aa33321228e67_original.jpg?w=338&h=190&fit=fill&bg=FFFFFF&v=1465312012&auto=format&q=92&s=225a49bfdd202ef5d96bc2d1e88fff2c"/>
+                        </a>
+                    <div class="details">
+                        <h2>ReveaLED II - Night Vision UV Flash Light for Smartphones</h2>
+                        <h4 class="author">by Bite Designs</h4>
+                        <p class="author">The Most Ultimate Synchronized UV LED flash light. Make invisible, visible.</p>
+                        <div>
+                            <a href="#" class="author"><i class="material-icons md-14">location_on</i>Guildford, UK</a>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>8%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>kr38,714</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>28</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <a href="#">
+                            <img src="https://ksr-ugc.imgix.net/assets/012/511/493/bdcfd050b9e0a062e911a277ddf5a862_original.jpg?w=338&h=190&fit=fill&bg=2D97D3&v=1464618316&auto=format&q=92&s=2cdea638268ac8adcfaa91b0df103782"/>
+                        </a>
+                    <div class="details">
+                        <h2>Forever Flask™ – The only vacuum flask you'll ever need</h2>
+                        <h4 class="author">by Mike Dewhirst</h4>
+                        <p class="author">3-in-1 all metal vacuum flask, mug and food container. 100% surgical steel. Hard-wearing. Keeps taste of the content pure.</p>
+                        <div>
+                            <a href="#" class="author"><i class="material-icons md-14">location_on</i>Guildford, UK</a>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>8%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>kr38,714</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>28</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <a href="#">
+                            <img src="https://ksr-ugc.imgix.net/assets/012/125/794/9885a6061877fe05177facbc5b97665c_original.png?w=338&h=190&fit=fill&bg=FFFFFF&v=1463778621&auto=format&q=92&s=cd3c967fbf09c0eaac16734960729a8d"/>
+                        </a>
+                    <div class="details">
+                        <h2>Forever Flask™ – The only vacuum flask you'll ever need</h2>
+                        <h4 class="author">by Mike Dewhirst</h4>
+                        <p class="author">3-in-1 all metal vacuum flask, mug and food container. 100% surgical steel. Hard-wearing. Keeps taste of the content pure.</p>
+                        <div>
+                            <a href="#" class="author"><i class="material-icons md-14">location_on</i>Guildford, UK</a>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>8%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>kr38,714</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>28</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="clear"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="recommended">
+            <div class="title">
+                <h3>Recommended for you</h3>
+                <a href="#">See all</a>
+            </div>
+            <div class="projects">
+                <div>
+                    <div class="col">
+                    <div class="img">
+                        <a href="#">
+                            <img src="https://ksr-ugc.imgix.net/assets/011/245/266/f4fc1cb98f56c27abb4aa33321228e67_original.jpg?w=338&h=190&fit=fill&bg=FFFFFF&v=1465312012&auto=format&q=92&s=225a49bfdd202ef5d96bc2d1e88fff2c"/>
+                        </a>
+                    <div class="details">
+                        <h2>ReveaLED II - Night Vision UV Flash Light for Smartphones</h2>
+                        <h4 class="author">by Bite Designs</h4>
+                        <p class="author">The Most Ultimate Synchronized UV LED flash light. Make invisible, visible.</p>
+                        <div>
+                            <a href="#" class="author"><i class="material-icons md-14">location_on</i>Guildford, UK</a>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>8%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>kr38,714</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>28</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <a href="#">
+                            <img src="https://ksr-ugc.imgix.net/assets/012/511/493/bdcfd050b9e0a062e911a277ddf5a862_original.jpg?w=338&h=190&fit=fill&bg=2D97D3&v=1464618316&auto=format&q=92&s=2cdea638268ac8adcfaa91b0df103782"/>
+                        </a>
+                    <div class="details">
+                        <h2>Forever Flask™ – The only vacuum flask you'll ever need</h2>
+                        <h4 class="author">by Mike Dewhirst</h4>
+                        <p class="author">3-in-1 all metal vacuum flask, mug and food container. 100% surgical steel. Hard-wearing. Keeps taste of the content pure.</p>
+                        <div>
+                            <a href="#" class="author"><i class="material-icons md-14">location_on</i>Guildford, UK</a>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>8%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>kr38,714</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>28</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <a href="#">
+                            <img src="https://ksr-ugc.imgix.net/assets/012/125/794/9885a6061877fe05177facbc5b97665c_original.png?w=338&h=190&fit=fill&bg=FFFFFF&v=1463778621&auto=format&q=92&s=cd3c967fbf09c0eaac16734960729a8d"/>
+                        </a>
+                    <div class="details">
+                        <h2>Forever Flask™ – The only vacuum flask you'll ever need</h2>
+                        <h4 class="author">by Mike Dewhirst</h4>
+                        <p class="author">3-in-1 all metal vacuum flask, mug and food container. 100% surgical steel. Hard-wearing. Keeps taste of the content pure.</p>
+                        <div>
+                            <a href="#" class="author"><i class="material-icons md-14">location_on</i>Guildford, UK</a>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="data">
+                            <div class="stats">
+                                <h1>8%</h1>
+                                <p>funded</p>
+                            </div>
+                            <div class="stats">
+                                <h1>kr38,714</h1>
+                                <p>pledged</p>
+                            </div>
+                            <div class="stats">
+                                <h1>28</h1>
+                                <p>days to go</p>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="clear"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="recommended">
+            <div class="title">
+                <h3>Curated Pages</h3>
+                <a href="#">See all</a>
+            </div>
+            <div class="curated">
+                <a href="#"><img src="https://ksr-ugc.imgix.net/photos/55/Logo-Square.original.jpg?w=220&h=220&fit=crop&v=&auto=format&q=92&s=48720721b02c5b2371f562f83cc15e94"\></a>
+                <a href="#"><img src="https://ksr-ugc.imgix.net/photos/23/RISD_KICKSTARTER.original.jpg?w=220&h=220&fit=crop&v=&auto=format&q=92&s=b311484022db9bf18590bc105ae4dbff"\></a>
+                <a href="#"><img src="https://ksr-ugc.imgix.net/photos/88/TEDFellows_fb_logo.original.gif?w=220&h=220&fit=crop&v=&auto=format&frame=1&q=92&s=9605987c585d5ecd915d18d6933d42e4"\></a>
+                <a href="#"><img src="https://ksr-ugc.imgix.net/photos/458/kodakpic.original.png?w=220&h=220&fit=crop&v=&auto=format&q=92&s=dea32c0a8107b4f88caa67c49ba3ccdb"\></a>
+                <a href="#"><img src="https://ksr-ugc.imgix.net/photos/34/SUndance_Logo.original.png?w=220&h=220&fit=crop&v=&auto=format&q=92&s=47c74013242af1eac1cb1d32e2905f19"\></a>
+                <a href="#"><img src="https://ksr-ugc.imgix.net/photos/291/youtube_duk.original.jpg?w=220&h=220&fit=crop&v=&auto=format&q=92&s=e491cb553cca24d82ae963d768e7b805"\></a>
+            </div>
+            
+        </div>
+        
+        <div class="line"></div>
+
+        <div id="more">
+            <h1>Where projects come from</h1>
+            <pre>Each and every Kickstarter project is the independent creation of someone like you.
+            Want to know more about how projects happen, or start your own? </pre>
+            <a href="#">Learn More</a>
+        </div>
+        
+        
+        <footer>
+            <div id = "footer_top">
+                <ul class="f-col">
+                    <h1>About Us</h1>
+                    <li><a href="#">What is Kickstarter?</a></li>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Stats</a></li>
+                    <li><a href="#">News Letters</a></li>
+                    <li><a href="#">Spotlight</a></li>
+                    <li><a href="#">Drip</a><span>NEW!</span></li>
+                </ul>
+                <ul class="f-col">
+                    <h1>Help</h1>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Our Rules</a></li>
+                    <li><a href="#">Creator Handbook</a></li>
+                    <li><a href="#">Campus</a></li>
+                    <li><a href="#">Trust & Safety</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul class="f-col">
+                    <h1>Discover</h1>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Crafts</a></li>
+                    <li><a href="#">Dance</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Film & Video</a></li>
+                    <li><a href="#">Food</a></li>
+                </ul>
+                <ul class="f-col">
+                    <div></div>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Jounalism</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Publishing</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Theater</a></li>
+                </ul>
+                <ul class="f-col">
+                    <h1>Hello</h1>
+                    <li><a href="#">Happening</a></li>
+                    <li><a href="#">Company Blog</a></li>
+                    <li><a href="#">Engineering Blog</a></li>
+                </ul>
+            
+            </div>
+            <div id = "footer_bottom">
+                <div id="f_left">
+                    <a href="#" id = "f_logo"><img src = "https://static.kickstarter.com/assets/logo/ksr-pbc-logo-5855ba7587ad442e2f44100c5c2bc2da5ac3857ef8f8aef59be74f7ccc295e16.svg"\></a>
+                    <p>© 2016</p>
+                </div>
+                <div id="f_right">
+                    <div id="social">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="#">English
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    
+                    
+                </div>
+                
+            </div>
+            
+            
+        </footer>
+        
         
         
         
         <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        
+        <script src="unslider-master/src/js/unslider.js"></script>
         <script src="main.js"></script>
+        
 </body>
 
 </html>
